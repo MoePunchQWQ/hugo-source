@@ -1,0 +1,83 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+    name = "文档"
+    pageRef = "docs"
+    weight = 1
+
+[[main]]
+    name = "快速访问"
+    weight = 2
+
+[[main]]
+    name = "我的 Bilibili 首页"
+    parent = "快速访问"
+    url = "https://space.bilibili.com/221674915"
+    weight = 1
+
+[[main]]
+    name = "GitHub"
+    parent = "快速访问"
+    url = "https://www.github.com"
+    weight = 2
+
+[[main]]
+    name = "友链"
+    weight = 3
+
+[[main]]
+    name = "WesKwong 的博客"
+    parent = "友链"
+    pre = "envelope"
+    url = "http://blog.weskwong.tech/"
+    weight = "1"
+
+[[main]]
+    name = "广高电协"
+    parent = "友链"
+    pre = "envelope"
+    url = "https://ggcso.github.io/"
+    weight = "2"
+
+[[main]]
+    name = "Linksphotograph"
+    parent = "友链"
+    pre = "envelope"
+    url = "https://space.bilibili.com/3816626"
+    weight = "3"
+
+[[main]]
+    identifier = "github"
+    pre = "github"
+    url = "https://github.com/MoePunchQWQ"
+    weight = 400
+
+[[main]]
+    identifier = "mastodon"
+    pre = "mastodon"
+    url = "https://hachyderm.io/@MoePunch"
+    weight = 401
+    
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+    name = "文章"
+    pageRef = "docs"
+    weight = 1
+
+[[footer]]
+    name = "关于"
+    pageRef = "about"
+    weight = 2

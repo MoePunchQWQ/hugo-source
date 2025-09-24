@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+weight = 2
+title = "MoePunch's Blog"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/avatar_round.png"
+  description = "My personal blog"
+  copyright = "© { year } MoePunch · Content licensed under CC BY-NC-SA 4.0"
+
+[params.author]
+  name = "MoePunch"
+  image = "img/avatar_round.png"
+  imageQuality = "96"
+  bio = "Welcome to my website!"
+  headline = "World peace"
+  links = [
+    { github = "https://github.com/MoePunchQWQ" },
+    { steam = "https://steamcommunity.com/profiles/890668584" }
+  ]
