@@ -15,7 +15,6 @@ title = "散葉的小窝"
 [params.author]
   name = "散葉"
   image = "https://i.postimg.cc/Y0txHRBv/avatar-round.png"
-  imageQuality = "96"
   bio = "欢迎来到我的站点！"
   headline = "愿世界和平"
   links = [
