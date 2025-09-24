@@ -23,8 +23,8 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/card_image.jpg"
-defaultFeaturedImage = "/img/featured.png"
+defaultBackgroundImage = "https://i.postimg.cc/ZYLcLG6p/card-image.jpg"
+defaultFeaturedImage = "https://i.postimg.cc/BQQC7mCy/featured.png"
 defaultSocialImage = "/img/blowfish_banner.png"
 
 highlightCurrentMenuArea = true
@@ -48,7 +48,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/card_image.jpg" # used in: hero, and card
+  homepageImage = "https://i.postimg.cc/ZYLcLG6p/card-image.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
