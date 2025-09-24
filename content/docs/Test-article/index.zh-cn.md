@@ -5,7 +5,6 @@ description = '这是一篇测试文章'
 title = '测试文章'
 tags = ['Docs']
 series = '测试文章'
-showAuthor = true
 +++
 # 这是一篇测试文章  
 
