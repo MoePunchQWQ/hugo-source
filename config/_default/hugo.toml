@@ -1,7 +1,7 @@
 # Site Configuration
 
 theme = "blowfish"
-baseURL = "https://moepunchqwq.github.io"
+baseURL = "https://moepunchqwq.github.io/"
 defaultContentLanguage = "zh-cn"
 disableLanguages = [] #to allow translation work requiring shipping to production
 
