@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 2
-title = "MoePunch's Blog"
+title = "time will talk..."
 
 [params]
   displayName = "English"
@@ -9,14 +9,15 @@ title = "MoePunch's Blog"
   rtl = false
   dateFormat = "2 January 2006"
   description = "My personal blog"
-  copyright = "© { year } MoePunch · Content licensed under CC BY-NC-SA 4.0"
+  copyright = "© { year } MoePunch · All rights reserved, reproduction prohibited · Free Palestine!&#127477;&#127480;"
 
 [params.author]
   name = "MoePunch"
   image = "img/avatar_round.png"
   bio = "Welcome to my website!"
-  headline = "World peace"
+  headline = "When the power of love overcomes the love of power, the world will know peace."
   links = [
     { github = "https://github.com/MoePunchQWQ" },
-    { steam = "https://steamcommunity.com/profiles/890668584" }
+    { steam = "https://steamcommunity.com/profiles/890668584" },
+    { mastodon = "https://hachyderm.io/@MoePunch"}
   ]
