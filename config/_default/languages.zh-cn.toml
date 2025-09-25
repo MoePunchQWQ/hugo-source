@@ -8,13 +8,12 @@ title = "散葉的小窝"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "https://i.postimg.cc/Y0txHRBv/avatar-round.png"
   description = "散葉的个人博客站点"
   copyright = "© { year } 散葉 · 内容采用 CC BY-NC-SA 4.0 许可 · 图床使用 postimage"
 
 [params.author]
   name = "散葉"
-  image = "https://i.postimg.cc/Y0txHRBv/avatar-round.png"
+  image = "img/avatar_round.png"
   bio = "欢迎来到我的站点！"
   headline = "愿世界和平"
   links = [

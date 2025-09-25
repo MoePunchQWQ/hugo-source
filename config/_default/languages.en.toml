@@ -8,13 +8,12 @@ title = "MoePunch's Blog"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "https://i.postimg.cc/Y0txHRBv/avatar-round.png"
   description = "My personal blog"
   copyright = "© { year } MoePunch · Content licensed under CC BY-NC-SA 4.0"
 
 [params.author]
   name = "MoePunch"
-  image = "https://i.postimg.cc/Y0txHRBv/avatar-round.png"
+  image = "img/avatar_round.png"
   bio = "Welcome to my website!"
   headline = "World peace"
   links = [

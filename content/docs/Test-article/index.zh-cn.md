@@ -4,7 +4,7 @@ draft = false
 description = '这是一篇测试文章'
 title = '测试文章'
 tags = ['Docs']
-series = '测试文章'
+series = ['测试文章']
 +++
 # 这是一篇测试文章  
 

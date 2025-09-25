@@ -4,7 +4,7 @@ draft = false
 description = 'This is a test article'
 title = 'Test Article'
 tags = ['Docs']
-series = 'Test articles'
+series = ['Test articles']
 +++
 # This is a test article  
 

@@ -17,14 +17,13 @@ replyByEmail = false
 
 mainSections = ["docs"]
 # robots = ""
-
 disableImageOptimization = true
-disableImageOptimizationMD = false
+disableImageOptimizationMD = true
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "https://i.postimg.cc/ZYLcLG6p/card-image.jpg"
-defaultFeaturedImage = "https://i.postimg.cc/BQQC7mCy/featured.png"
+defaultBackgroundImage = "img/card_image.jpg"
+defaultFeaturedImage = "img/featured.png"
 defaultSocialImage = "/img/blowfish_banner.png"
 
 highlightCurrentMenuArea = true
@@ -44,11 +43,11 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "https://i.postimg.cc/ZYLcLG6p/card-image.jpg" # used in: hero, and card
+  homepageImage = "img/card_image.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/docs"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
@@ -60,7 +59,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   showLikes = false
   showDateOnlyInArticle = true
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   # showAuthorBottom = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
