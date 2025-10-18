@@ -1,6 +1,8 @@
 +++
 date = '2025-09-25T11:12:20+08:00'
 draft = false
+description = "介绍了作者关于中国大陆地区 hugo 无法通过添加 submodule 添加主题的解决方法，更改网站图标的心得和自定义内容的提醒"
+keywords = ['Hugo', 'Blowfish', '主题', '网络', '自定义', 'Hugo 更改图标']
 title = '记录一下 Blowfish 个性化的一些事宜'
 tags = ['Docs']
 series = ['建站相关']
